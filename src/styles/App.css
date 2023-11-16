@@ -1,1 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0px;
+}
+
+.btn {
+    background-color: aquamarine;
+    border: none;
+    padding: 10px;
+}
+
+table {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+thead {
+    background-color: black;
+    color: white;
+    /* padding: 10px; */
+}
+thead th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
